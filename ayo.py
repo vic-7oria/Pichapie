@@ -14,3 +14,5 @@ print(Name)
 print("Total length: ",  len(Name))
 
 print("Access the letter: ",  Name[8])
+
+print(Name[0:3])
