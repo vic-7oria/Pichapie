@@ -25,7 +25,10 @@ print(message)
 
 # checking if age is between 18 and 50
 age = input("Input Age: ")
-if int(age) >= 18 and int(age) < 50:
+# if int(age) >= 18 and int(age) < 50: #this is same with...
+
+if 18 <= int(age) < 50:
+
     print("In!")
 else:
     print("Out of range :<")
