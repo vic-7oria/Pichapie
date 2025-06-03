@@ -7,7 +7,7 @@ result = x*y
 # print(result)
 
 
-# accessing contents of variable
+# ACCESSING CONTENTS OF A VARIABLE
 
 Name = "Queency Ruth"
 # print(Name)
@@ -22,7 +22,7 @@ name = "Quee\n\"ncy \'Ruth"
 # print("This is an experimental:", name)
 
 
-# Formatted strings
+# FORMATTED STRINGS
 
 first_Name = "Queency"
 last_Name = "Reyes"
@@ -32,11 +32,10 @@ last_Name = "Reyes"
 
 # but we can also do this, it has same output
 Full = f"{first_Name} {last_Name}"
-
 # print(Full)
 
 
-# String manipulation
+# STRING MANIPULATION
 
 myName = "Queency \"GorGeous\" Reyes"
 
@@ -49,10 +48,21 @@ print(myName.find("GorG"))  # returns the index
 print("GorG" in myName)  # returns boolean
 '''
 
-# type conversion
-t = input("x: ")
+# TYPE CONVERSION
+# t = input("x: ")
 
 # we converted the string in the input so that the types are compatible
-y = int(t) + 1
+# y = int(t) + 1
 
-print(f"x: {t} y:{y}")
+# print(f"x: {t} y:{y}")
+
+
+# CONDITIONAL STATEMENTS
+
+grade = 100
+if grade > 30:
+    print("ok")
+elif grade != 50:
+    print("chill")
+else:
+    print("woah")
