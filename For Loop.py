@@ -19,5 +19,23 @@ for x in range(3):
         print(f"\n({x},{y})")
 
 # Iterable
-for p in "\nBabu":
+for p in "\nBabu\n":
     print(p)
+
+
+# WHILE LOOP
+number = 100
+while number > 0:
+    print(number)
+    number = number // 2
+    # COMPOUND STATEMENT: number //= 2
+    # this is an expression to print limited numbers, loop won't stop if don't have it.
+
+
+inp = ""
+while inp.lower() != "quit":
+    inp = input("Enter here: ")
+    print("Paste:", inp)
+
+# SITUATION: what if the user enters an uppercase?
+# ANSWER: Put [while inp.lower() != "quit":] this function to convert erthing to lower to match the lowercased "quit"
