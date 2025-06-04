@@ -22,7 +22,7 @@ for x in range(3):
 for p in "\nBabu\n":
     print(p)
 
-
+'''''
 # WHILE LOOP
 number = 100
 while number > 0:
@@ -39,3 +39,24 @@ while inp.lower() != "quit":
 
 # SITUATION: what if the user enters an uppercase?
 # ANSWER: Put [while inp.lower() != "quit":] this function to convert erthing to lower to match the lowercased "quit"
+
+
+# SAME WITH WHAT'S ABOVE
+command = ""
+while True:
+    command = input("Hephep: ")
+    print("Hooray", command)
+
+    if command == "stop":
+        break
+'''
+
+# EXERCISE: PRINT 2,4,6,8 \n We have 4 even numbers
+
+count = 0
+for m in range(1, 10):
+    if m % 2 == 0:
+        print(m)
+        count += 1
+
+print("We have", count, "even numbers")
