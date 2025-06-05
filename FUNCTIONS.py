@@ -22,8 +22,22 @@ print(message)
 def calc(number, by):
     return number + by
 
-# to print the output of the function above, we need to store the arguments in a variable, and we can print that variable.
+# to print the output of the function above, we need to store the arguments in a variable, and we can print that variable. Like this...
+# result = calc(3, 5)
 
 
-result = calc(3, 5)
-print(result)
+# or just simply do this :>
+print(calc(3, 5))
+
+
+# NOTE: Now we will use *args
+
+def multi(*numbers_list):
+
+    ress = 1
+    for x in numbers_list:
+        ress = ress * x
+    return ress
+
+
+print(multi(2, 3, 4, 6))
