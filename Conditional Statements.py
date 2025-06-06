@@ -32,3 +32,8 @@ if 18 <= int(age) < 50:
     print("In!")
 else:
     print("Out of range :<")
+
+
+# BASIC IF STATEMENT
+num = float(input("Enter a number: "))
+print("EVEN" if num % 2 == 0 else "ODD")
