@@ -25,3 +25,9 @@ for x in range(3):
 # Iterable
 for p in "\nBabu\n":
     print(p)
+
+# This and what's above are the same
+b = "Babu"
+for letters in b:
+    print(letters)
+    # Take note, we always need a var name in the loop and we will use it as storage for the declared variable and printing purposes.
