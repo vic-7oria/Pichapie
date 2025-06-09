@@ -43,3 +43,30 @@ while not artist == "x":
     artist = input(f"Who is your another fav artist? \n (Press x to exit)\n")
 
 print("Thanks for sharing!")
+
+
+number = 100
+while number > 0:
+    print(number)
+    number = number // 2
+    # COMPOUND STATEMENT: number //= 2
+    # this is an expression to print limited numbers, loop won't stop if don't have it.
+
+
+inp = ""
+while inp.lower() != "quit":
+    inp = input("Enter here: ")
+    print("Paste:", inp)
+
+# SITUATION: what if the user enters an uppercase?
+# ANSWER: Put [while inp.lower() != "quit":] this function to convert erthing to lower to match the lowercased "quit"
+
+
+# SAME WITH WHAT'S ABOVE
+command = ""
+while True:
+    command = input("Hephep: ")
+    print("Hooray", command)
+
+    if command == "stop":
+        break
