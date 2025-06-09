@@ -16,7 +16,7 @@ else:
 
 while name == "":
     print("Enter your name")
-    name = input("What's your name? ")
+    name = input("What's your name? ") # This part acts like an escape from an infinite loop, without this, loop will execute endlessly.
 else:
     print(f"What's up {name}")
 
