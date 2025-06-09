@@ -35,3 +35,5 @@ print(f"Your Grade3 is {grade3:^20}\n")
 print(f"Your Money1 is {money1:+,}")
 print(f"Your Money2 is {money2:+,}")
 print(f"Your Money3 is {money3:+,.4f}\n")
+
+# NOTE: Don't forget the colon beside variable
