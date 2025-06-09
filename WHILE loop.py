@@ -16,7 +16,7 @@ else:
 
 while name == "":
     print("Enter your name")
-    name = input("What's your name? ") # This part acts like an escape from an infinite loop, without this, loop will execute endlessly.
+    name = input("What's your name? ")
 else:
     print(f"What's up {name}")
 
@@ -32,3 +32,14 @@ while name == "":
 
 print(f"What's up {name}")
 '''
+
+
+# ANOTHER EXAMPLE
+
+artist = input(f"Who is your fav artist? \n (Press x to exit)\n")
+
+while not artist == "x":
+    print(f"I like {artist} too!")
+    artist = input(f"Who is your another fav artist? \n (Press x to exit)\n")
+
+print("Thanks for sharing!")
