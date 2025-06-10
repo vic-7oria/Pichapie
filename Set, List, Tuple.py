@@ -1,6 +1,6 @@
 # SET =  {} unordered and immutable, Does not print dupe
 # LIST = [] similar to array, ordered and changebale. Prints dupe
-# TUPLE = () ordered and unchangeable. Prints dupe
+# TUPLE = () ordered and unchangeable. Prints dupe. Faster than LIST
 
 # LIST
 name = ["Gab", "Kiz", "Irish", "V", "Kheymp"]
@@ -39,11 +39,12 @@ for y in names:
 # TUPLE
 # for tuple, it works the same, but I think it only has limited methods.
 
-namess = ("Gab", "Kiz", "Irish", "V", "Kheymp")
+namess = ("Gab", "Kiz", "Irish", "V", "Kheymp", "Queency", "Queency")
 
 print(namess)
 print("Queency" in namess)
 print(len(namess))
+print(namess.count("Queency"))
 
 
 for z in names:
