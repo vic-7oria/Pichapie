@@ -11,7 +11,7 @@ for i in range(row):
     print("\n")
 '''
 
-
+# First
 for i in range(1, rows + 1):
     for j in range(1, rows * 2):
         if rows - i < j < rows + i:
@@ -20,7 +20,7 @@ for i in range(1, rows + 1):
             print(" ", end="")
     print()
 
-
+# Mix of multi line comment and First
 row = int(input("Enter rows again: "))
 
 for i in range(1, row + 1):
@@ -32,6 +32,7 @@ for i in range(1, row + 1):
     print()
 
 
+# Experimental
 row3 = int(input("Enter rows for the third time: "))
 
 for i in range(1, row3 + 1):
