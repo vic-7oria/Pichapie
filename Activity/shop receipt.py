@@ -20,9 +20,8 @@ print("\n******* RECEIPT *******\n")
 
 print(f"The items are:")
 
-for f in foods:
-    for p in prices:
-        print(f" {f}.....{p}")
+for f, p in zip(foods, prices):
+    print(f" {f}.....{p} php")
 
 print()
 
