@@ -21,7 +21,7 @@ print("\n******* RECEIPT *******\n")
 print(f"The items are:")
 
 for f, p in zip(foods, prices):
-    print(f" {f}.....{p} php")
+    print(f" {f:<10}{p:>5} php")
 
 print()
 
