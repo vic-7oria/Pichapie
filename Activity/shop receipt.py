@@ -21,11 +21,13 @@ print("\n******* RECEIPT *******\n")
 print(f"The items are:")
 
 for f, p in zip(foods, prices):
+    # {f:<10}{p:>5} is the reason why the prices are aligned
     print(f" {f:<10}{p:>5} php")
 
-print()
+print()  # this prints an line empty line
 
 
+# simple calculation for the total price
 for p in prices:
     total += p
 print(f"Your total is {total} Pesos")
