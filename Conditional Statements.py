@@ -1,4 +1,4 @@
-# Simple Somparison
+# Simple Comparison
 grade = 100
 if grade > 30:
     print("ok")
