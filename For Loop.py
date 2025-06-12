@@ -1,4 +1,4 @@
-# we use for loop to print something repeatedly without having to manually coding it
+# we use for loop to print something repeatedly without needing manual coding.
 
 for asterisk in range(2):
     # RANDOM NOTE: to make it print starting with 1 instead of 0, use print("*", asterisk + 1)
