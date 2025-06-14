@@ -1,3 +1,8 @@
+# SET =  {} unordered and immutable, Does not print dupe
+# LIST = [] similar to array, ordered and changebale. Prints dupe
+# TUPLE = () ordered and unchangeable. Prints dupe. Faster than LIST
+
+
 cars = ["Mustang", "R8", "Camaro", "i8", "GR86"]
 brands = ["Ford", "Audi", "Chevrolet", "BMW", "Toyota"]
 luxury = ["Rolls Royce", "Bentley", "Aston Martin", "Mercedes Benz", "Porsche"]
