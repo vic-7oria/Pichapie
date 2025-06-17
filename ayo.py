@@ -83,3 +83,24 @@ else:
     message = "Infant"
 
 print(message)
+
+
+
+#Age Classification but with while loop
+age = input("Input Age: ")
+
+
+while age != "stop":    
+    if int(age) > 18 and int(age)<120:
+        message = "Adult"
+    elif int(age) <= 18 and int(age) >= 13:
+        message = "Teen"
+    elif int(age) < 12 and int(age) >= 1:
+        message = "Kid"
+    elif int(age) == 0:
+        message = "Newborn"
+    else:
+        message = "Invalid Input"
+       
+    print(message)
+    age = input("Input Age: ")
